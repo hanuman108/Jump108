@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/jump108/!svn/ver/9/trunk/WebContent/WEB-INF
+END
+$jump-servlet.xml
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/jump108/!svn/ver/9/trunk/WebContent/WEB-INF/$jump-servlet.xml
+END
+jdbc.properties
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/jump108/!svn/ver/6/trunk/WebContent/WEB-INF/jdbc.properties
+END
+applicationContext.xml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/jump108/!svn/ver/9/trunk/WebContent/WEB-INF/applicationContext.xml
+END
+web.xml
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/jump108/!svn/ver/6/trunk/WebContent/WEB-INF/web.xml
+END

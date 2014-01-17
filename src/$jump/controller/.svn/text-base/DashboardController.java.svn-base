@@ -1,0 +1,90 @@
+package $jump.controller;
+
+import java.util.Date;
+import java.util.HashMap;
+import java.util.Map;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import org.springframework.web.servlet.mvc.multiaction.MultiActionController;
+
+import $jump.dao.DashboardDao;
+import $jump.domain.Intent;
+import $jump.domain.User;
+import $jump.util.Util;
+
+public class DashboardController extends MultiActionController{
+
+	private DashboardDao dashboardDao;
+	
+	public void setDashboardDao(DashboardDao dashboardDao) {
+		this.dashboardDao = dashboardDao;
+	}
+
+	public void loadUser(HttpServletRequest request, HttpServletResponse response) throws Exception{
+		Long id = Util.getParameterLong(request, "id");
+		User user = dashboardDao.getUserById(id);
+		Util.sendToFrontEnd(user, response);
+	}
+
+	public void loadSuggestedUsers(HttpServletRequest request, HttpServletResponse response) throws Exception{
+		Long id = Util.getParameterLong(request, "id");
+		Map<String, Object> data = dashboardDao.getSuggestedUsers(id);
+		Util.sendToFrontEnd(data, response);
+	}
+	
+	public void saveIntent(HttpServletRequest request, HttpServletResponse response) throws Exception{
+		Map<String,Object> data = new HashMap<String,Object>();
+		Long id = Util.getParameterLong(request, "userId");
+		
+		User user = dashboardDao.findById(id);
+		String description = request.getParameter("description");
+		String category = request.getParameter("category");
+		String type = request.getParameter("type");
+		
+		user.setIntentions(null);
+		Intent intent = new Intent();	
+		intent.setId(new Long(0));
+		intent.setDescription(description);
+		intent.setCategory(category);
+		intent.setType(type);		
+		intent.setUser(user);
+		intent.setStatus("Open");
+		intent.setCrDate(new Date());
+		
+		dashboardDao.setModel(intent);
+		dashboardDao.save();
+		
+		data.put("data", intent);
+		
+		// Send success response
+		Util.sendToFrontEnd(data, response);
+	}
+	
+	public void deleteIntent(HttpServletRequest request, HttpServletResponse response) throws Exception{
+		Map<String,Object> data = new HashMap<String,Object>();
+		
+		Long id = Util.getParameterLong(request, "id");
+		Intent intent = dashboardDao.getIntentById(id);
+		
+		dashboardDao.deleteIntent(intent);
+		
+		data.put("status", "Success");
+		Util.sendToFrontEnd(data, response);
+	}
+	
+	public void updateStatus(HttpServletRequest request, HttpServletResponse response) throws Exception{
+		Map<String,Object> data = new HashMap<String,Object>();
+		
+		Long id = Util.getParameterLong(request, "id");
+		Intent intent = dashboardDao.getIntentById(id);
+		
+		intent.setStatus("Complete");
+		dashboardDao.saveIntent(intent);
+		
+		data.put("status", "Success");
+		data.put("data", intent);
+		Util.sendToFrontEnd(data, response);
+	}
+}

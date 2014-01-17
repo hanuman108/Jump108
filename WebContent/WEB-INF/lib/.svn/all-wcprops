@@ -1,0 +1,161 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/jump108/!svn/ver/6/trunk/WebContent/WEB-INF/lib
+END
+javassist-3.4.GA.jar
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/jump108/!svn/ver/6/trunk/WebContent/WEB-INF/lib/javassist-3.4.GA.jar
+END
+commons-io-1.4.jar
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/jump108/!svn/ver/6/trunk/WebContent/WEB-INF/lib/commons-io-1.4.jar
+END
+smtp.jar
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/jump108/!svn/ver/6/trunk/WebContent/WEB-INF/lib/smtp.jar
+END
+activation.jar
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/jump108/!svn/ver/6/trunk/WebContent/WEB-INF/lib/activation.jar
+END
+jta.jar
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/jump108/!svn/ver/6/trunk/WebContent/WEB-INF/lib/jta.jar
+END
+commons-logging.jar
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/jump108/!svn/ver/6/trunk/WebContent/WEB-INF/lib/commons-logging.jar
+END
+commons-codec-1.4.jar
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/jump108/!svn/ver/6/trunk/WebContent/WEB-INF/lib/commons-codec-1.4.jar
+END
+gson-1.41.jar
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/jump108/!svn/ver/6/trunk/WebContent/WEB-INF/lib/gson-1.41.jar
+END
+commons-pool.jar
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/jump108/!svn/ver/6/trunk/WebContent/WEB-INF/lib/commons-pool.jar
+END
+hibernate3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/jump108/!svn/ver/6/trunk/WebContent/WEB-INF/lib/hibernate3.jar
+END
+mailapi.jar
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/jump108/!svn/ver/6/trunk/WebContent/WEB-INF/lib/mailapi.jar
+END
+antlr-2.7.6.jar
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/jump108/!svn/ver/6/trunk/WebContent/WEB-INF/lib/antlr-2.7.6.jar
+END
+joda-time-1.6.jar
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/jump108/!svn/ver/6/trunk/WebContent/WEB-INF/lib/joda-time-1.6.jar
+END
+iText-5.0.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/jump108/!svn/ver/6/trunk/WebContent/WEB-INF/lib/iText-5.0.2.jar
+END
+joda-time-hibernate-1.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/jump108/!svn/ver/6/trunk/WebContent/WEB-INF/lib/joda-time-hibernate-1.2.jar
+END
+c3p0-0.9.1.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/jump108/!svn/ver/6/trunk/WebContent/WEB-INF/lib/c3p0-0.9.1.2.jar
+END
+slf4j-api-1.5.8.jar
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/jump108/!svn/ver/6/trunk/WebContent/WEB-INF/lib/slf4j-api-1.5.8.jar
+END
+spring-webmvc.jar
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/jump108/!svn/ver/6/trunk/WebContent/WEB-INF/lib/spring-webmvc.jar
+END
+dom4j-1.6.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/jump108/!svn/ver/6/trunk/WebContent/WEB-INF/lib/dom4j-1.6.1.jar
+END
+spring.jar
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/jump108/!svn/ver/6/trunk/WebContent/WEB-INF/lib/spring.jar
+END
+commons-fileupload-1.2.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/jump108/!svn/ver/6/trunk/WebContent/WEB-INF/lib/commons-fileupload-1.2.2.jar
+END
+hibernate-entitymanager.jar
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/jump108/!svn/ver/6/trunk/WebContent/WEB-INF/lib/hibernate-entitymanager.jar
+END
+mysql-connector-java-5.1.10-bin.jar
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/jump108/!svn/ver/6/trunk/WebContent/WEB-INF/lib/mysql-connector-java-5.1.10-bin.jar
+END
+commons-dbcp.jar
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/jump108/!svn/ver/6/trunk/WebContent/WEB-INF/lib/commons-dbcp.jar
+END
+commons-collections.jar
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/jump108/!svn/ver/6/trunk/WebContent/WEB-INF/lib/commons-collections.jar
+END
+slf4j-simple-1.5.8.jar
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/jump108/!svn/ver/6/trunk/WebContent/WEB-INF/lib/slf4j-simple-1.5.8.jar
+END

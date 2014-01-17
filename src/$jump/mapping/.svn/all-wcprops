@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/jump108/!svn/ver/10/trunk/src/$jump/mapping
+END
+user.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/jump108/!svn/ver/9/trunk/src/$jump/mapping/user.hbm.xml
+END
+intent.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/jump108/!svn/ver/24/trunk/src/$jump/mapping/intent.hbm.xml
+END

@@ -1,0 +1,9 @@
+# DEV
+# local requires that you configure your local filepaths in devconfig.properties
+env=dev
+
+# QA
+#env=qa
+
+# PROD
+#env=prod

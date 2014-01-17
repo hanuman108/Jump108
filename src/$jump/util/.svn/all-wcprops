@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/jump108/!svn/ver/9/trunk/src/$jump/util
+END
+devconfig.properties
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/jump108/!svn/ver/9/trunk/src/$jump/util/devconfig.properties
+END
+Util.java
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/jump108/!svn/ver/9/trunk/src/$jump/util/Util.java
+END
+config.properties
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/jump108/!svn/ver/9/trunk/src/$jump/util/config.properties
+END

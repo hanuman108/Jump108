@@ -1,0 +1,6 @@
+jdbc.driverClassName=com.mysql.jdbc.Driver
+
+#use these settings for local db
+jdbc.url=jdbc:mysql://localhost/$.jump
+jdbc.username=root
+jdbc.password=
